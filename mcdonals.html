@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Aseets/css/productos.css">
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div class="logo">
+                <a href="#">
+                    <img src="Aseets/images/logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="Inicio.html" >Inicio</a></li>
+                        <li><a href="restaurantes.html">Restaurantes</a></li>
+                        
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <a href="iniciosesion.html" target="_blank" class="btn__quote">Iniciar Sesion</a>
+
+                <div class="SocialMedia">
+                    <a href="#">
+                        <img src="Aseets/images/facebook.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="Aseets/images/instagram.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="Aseets/images/twitter.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="Aseets/images/youtube.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header><br><br><br>
+    <div class="page-nav">
+        <h1 style="color: #2196F3;">mmm</h1><br>
+        <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
+    </div>
+    <div class="page-content">
+        <div class="product-container">
+            <h3>Big Mac</h3>
+            <img src="Aseets/images/BigMac.jpg" />
+            <h1>S/. 6.90</h1>
+            <button class="button-add" onclick="add('product-1', 6.90)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Doble Cuarto de Libra con Queso</h3>
+            <img src="Aseets/images/DobleCuarto.jpg" />
+            <h1>S/. 7.90</h1>
+            <button class="button-add" onclick="add('product-2', 7.90)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>McNuggets 6 unidades</h3>
+            <img src="Aseets/images/mcnuggets.jpg" />
+            <h1>S/. 5.90</h1>
+            <button class="button-add" onclick="add('product-3', 5.90)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>McFlurry Oreo</h3>
+            <img src="Aseets/images/McFlurry Oreo.png" />
+            <h1>S/. 4.90</h1>
+            <button class="button-add" onclick="add('product-4', 4.90)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Pollo Crujiente 3 Piezas</h3>
+            <img src="Aseets/images/PolloCrujiente3Piezas.jpg" />
+            <h1>S/. 9.90</h1>
+            <button class="button-add" onclick="add('product-5', 9.90)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Coca-Cola 12oz</h3>
+            <img src="Aseets/images/Coca-Cola 12oz.jpg" />
+            <h1>S/. 3.90</h1>
+            <button class="button-add" onclick="add('product-6', 3.90)">Agregar</button>
+        </div>
+    </div>
+
+    <script src="Aseets/js/funProducts.js"></script>
+</body>
+</html>

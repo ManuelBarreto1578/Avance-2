@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Usuario - Tu Página Web</title>
+    <style>
+        h2, h3 {
+            color: #333;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            color: #9A00BF;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+        }
+        a {
+            color: red;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        :root{
+            --color_text-primary: #AB29CA;
+            --color_text-secundary: #101E2C;
+            --color_text-tertiary: #485663;
+            --main_color-primary: #9A00BF;
+            --main_color-secundary: rgb(242, 250, 82);
+            --background-color: #FAFBFE;
+            --lowText_font_size: 16px;
+            --text_size_title: 40px;
+            --text_title_card: 24px;
+            --text_title_cardv2: 20px;
+            --text_paragraph: 16px;
+            --box_shadow-primary: 0px 6px 50px -20px rgba(0,0,0,0.2);
+        }
+
+        header{
+            width: 100%;
+            height: 100px;
+            position: fixed;
+            z-index: 100;
+            background-color: #e6e6e6;
+        }
+
+        .container__header{
+            max-width: 1200px;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+        }
+
+        .logo{
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .logo img{
+            width: 120px;
+        }
+
+        .menu{
+            display: flex;
+            align-items: center;
+        }
+
+        .menu nav{
+            margin: 0px 20px;
+        }
+
+        .menu nav ul{
+            display: flex;
+        }
+
+        .menu nav ul li{
+            list-style: none;
+            margin: 20px 16px;
+        }
+
+        .menu nav ul li a{
+            color: var(--color_text-secundary);
+            font-size: var(--lowText_font_size);
+            position: relative;
+        }
+
+        .menu nav ul li a:hover{
+            color: var(--color_text-primary);
+        }
+
+        .btn__quote{
+            display: block;
+            padding: 8px 40px;
+            border: 2px solid var(--main_color-primary);
+            border-radius: 8px;
+            font-weight: 500;
+            margin: 0px 20px;
+            transition: all 300ms;
+        }
+
+        .btn__quote:hover{
+            color: white;
+            background: var(--main_color-primary);
+        }
+
+        .menu .SocialMedia{
+            margin: 0px 10px;
+        }
+
+        .menu .SocialMedia a{
+            margin: 0px 4px;
+        }
+
+        .menu .SocialMedia img{
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div class="logo">
+                <a href="#">
+                    <img src="Aseets/images/logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="Inicio.html" >Inicio</a></li>
+                        <li><a href="restaurantes.html">Restaurantes</a></li>
+                        
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <a href="iniciosesion.html" target="_blank" class="btn__quote">Iniciar Sesion</a>
+
+                <div class="SocialMedia">
+                    <a href="#">
+                        <img src="Aseets/images/facebook.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="Aseets/images/instagram.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="Aseets/images/twitter.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="Aseets/images/youtube.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header><br><br><br><br><br>
+<center>
+    <br><h1>Manual de Usuario - Tu Página Web</h1>
+
+
+    <h2 id="inicio">Inicio</h2>
+    <p>La página de inicio presenta una vista general de la aplicación, mostrando información relevante y posiblemente destacando características especiales. Aquí los usuarios pueden:</p>
+    <ul>
+        <li>Explorar las últimas ofertas.</li>
+        <li>Acceder a funciones destacadas.</li>
+        <li>Navegar por categorías populares.</li>
+    </ul><br>
+    <img src="Aseets/images/CapturaInicio.png" alt="Captura de pantalla de Inicio"><br>
+    <h2 id="restaurantes">Restaurantes</h2>
+    <p>La sección de restaurantes permite a los usuarios:</p>
+    <ul>
+        <li>Buscar restaurantes por nombre o ubicación.</li>
+        <li>Ver menús, horarios y reseñas.</li>
+        <li>Hacer reservas o pedidos en línea.</li>
+    </ul><br>
+    <img src="Aseets/images/CapturaRestaurante.png" alt="Captura de pantalla de la sección de restaurantes">
+    <img src="Aseets/images/CapturaProduc.png" alt="Captura de pantalla de la sección de productos">
+    <!-- Continúa con el resto de secciones -->
+<br>
+    <h2 id="nosotros">Nosotros</h2>
+    <p>La página "Nosotros" proporciona información sobre la empresa o equipo detrás de la aplicación. Los usuarios pueden aprender acerca de:</p>
+    <ul>
+        <li>La misión y visión de la empresa.</li>
+        <li>El equipo de desarrollo.</li>
+        <li>Eventos o logros destacados.</li>
+    </ul><br>
+    <img src="Aseets/images/CapturaNosotros.png" alt="Captura de pantalla de la sección de nosotros">
+    <br><h2 id="contacto">Contacto</h2>
+    <p>En la sección de contacto, los usuarios pueden:</p>
+    <ul>
+        <li>Encontrar información de contacto, como dirección y correo electrónico.</li>
+        <li>Enviar consultas o comentarios a través de un formulario.</li>
+    </ul><br>
+    <img src="Aseets/images/CapturaContacto.png" alt="Captura de pantalla de la página de Contacto">
+ <br>   <h2 id="inicio-sesion">Inicio de Sesión</h2>
+    <p>La página de inicio de sesión permite a los usuarios:</p>
+    <ul>
+        <li>Iniciar sesión con su cuenta existente.</li>
+        <li>Recuperar contraseña si es necesario.</li>
+        <li>Crear una nueva cuenta si aún no tienen una.</li>
+    </ul><br>
+    <img src="Aseets/images/CapturaLogin.png" alt="Captura de pantalla de la página de inicio de sesión">
+    <img src="Aseets/images/CapturaLogin2.png" alt="Captura de pantalla de la sección de inicio de sesión 2">
+    <!-- Agrega más contenido según sea necesario -->
+
+</body></center>
+</html>
